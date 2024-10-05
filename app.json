@@ -1,0 +1,26 @@
+{
+  "name": "UD-MD",
+  "description": "🧸 Sɪᴍᴘʟᴇ Mᴜʟᴛɪ-Dᴇᴠɪᴄᴇ Wʜᴀᴛsᴀᴘᴘ Bᴏᴛ Dᴏɴᴛ Fᴏʀɢᴇᴛ Tᴏ Gɪᴠᴇ Sᴛᴀʀ. Fᴇᴇʟ Fʀᴇᴇ Tᴏ Usᴇ Uᴅ Mᴅ Wʜᴀᴛsᴀᴘᴘ Bᴏᴛ 🌸",
+  "logo": "https://github.com/Um4r719.png",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+    "MONGODB": {
+      "description": "paste your mongodb url.",
+      "required": false
+    }
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
