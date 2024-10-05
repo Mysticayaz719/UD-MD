@@ -4,15 +4,16 @@
   "description": "A WhatsApp Bot Created With Heart By Umar Rehman",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name UD-MD",
-    "stop": "pm2 stop UD-MD",
-    "restart": "pm2 restart UD-MD"
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
   },
   "dependencies": {
-    "@adiwajshing/baileys": "^5.0.0",
+    "@whiskeysockets/baileys": "6.6.0",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@sl-code-lords/youtube-dl": "^1.0.4",
-    "@whiskeysockets/baileys": "6.6.0",
     "api-dylux": "^1.8.5",
     "axios": "^1.2.5",
     "express": "latest",
