@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 // Put Your Session Id Here
-SESSION_ID: process.env.SESSION_ID || "WNdFmAJL#QOmROfHgIqieYhvwq8aQBOQBM99wW5rqaKvSOc6920c",
+SESSION_ID: process.env.SESSION_ID || "wXk3QIzb#gkVhFTRMSdqc8WZ63iBqfKmLHFDQocqZVO2KMHfYSUY",
 OWNER_NUMBER: '923165123719@s.whatsapp.net',
 ALIVE_IMG: process.env.ALIVE_IMG || "https://i.imgur.com/IfaDdJf.jpeg",
 ALIVE_MSG: process.env.ALIVE_IMG || "🤖🔰 Hi UD MD Is Online Now 💻\n*💻 Owner* - Um4r Rehman\n\n*💻 Owner Number* -923165123719\n\n_Type .menu to get the command menu._",
